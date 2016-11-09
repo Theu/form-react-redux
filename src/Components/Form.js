@@ -10,7 +10,7 @@ class Form extends React.Component {
   }
 }
 
-PropTypes: {
+PropTypes= {
   children: PropTypes.node,
   values: PropTypes.object,
   update: PropTypes.func,
@@ -18,4 +18,4 @@ PropTypes: {
   onSubmit: PropTypes.func,
 }
 
-export default Form
+export default Form;
