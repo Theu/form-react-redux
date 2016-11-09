@@ -1,0 +1,32 @@
+{
+  "name": "form-react-redux",
+  "version": "1.0.0",
+  "description": "\"tutorial to creat a react redux form\"",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack  --progress --colors --watch --config ./build.config.js",
+    "build": "webpack --config ./build.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theu/form-react-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Theu/form-react-redux/issues"
+  },
+  "homepage": "https://github.com/Theu/form-react-redux#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "path": "^0.12.7",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
