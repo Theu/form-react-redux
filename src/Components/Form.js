@@ -10,7 +10,7 @@ class Form extends React.Component {
   }
 }
 
-PropTypes= {
+Form.PropTypes = {
   children: PropTypes.node,
   values: PropTypes.object,
   update: PropTypes.func,

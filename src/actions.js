@@ -1,4 +1,4 @@
-import * as c from './constant';
+import * as c from './constants';
 
 export function update(name, value) {
   return dispatch => dispatch({
@@ -8,7 +8,7 @@ export function update(name, value) {
 }
 
 export function reset() {
-  return => dispatch({
+  return dispatch => dispatch({
     type: c.FORM_RESET
   });
 }

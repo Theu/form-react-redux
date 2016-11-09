@@ -7,7 +7,7 @@ import createLogger from 'redux-logger';
 import Form from './components/Form';
 import * as actions from './actions';
 import store from './store';
-import injectTapEventPlugin from 'react-tap-event-plugin'; 
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 injectTapEventPlugin();
 
@@ -20,3 +20,5 @@ export default props => (
     <SmartForm {...props}/>
   </Provider>
 );
+
+export {default as Text} from './components/Text';
